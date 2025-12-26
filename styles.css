@@ -85,7 +85,7 @@ body{
   text-decoration: none;
   transition: background 160ms, color 160ms, transform 140ms;
 }
-.social-link svg{ width:20px; height:20px; }
+.social-link svg{ width:20px; height:20px; min-width: 20px; min-height: 20px;}
 .social-link:hover{ background: rgba(47,107,69,0.08); color: var(--accent); transform: translateY(-3px); }
 .social-link:focus{ outline: 3px solid rgba(47,107,69,0.12); outline-offset: 2px; }
 
