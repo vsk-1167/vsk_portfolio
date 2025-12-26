@@ -1,37 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Vrishabhadev Sathish Kumar</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      margin: 0;
-      background: #f9f9f9;
-      color: #333;
-      text-align: center;
-    }
-    h1 {
-      font-size: 2.5rem;
-      margin-bottom: 0.5rem;
-    }
-    p {
-      margin: 0.3rem 0;
-      font-size: 1.1rem;
-    }
-    .email {
-      color: #0073e6;
-    }
-  </style>
+  <!-- Shared stylesheet -->
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  <h1>Vrishabhadev Sathish Kumar</h1>
-  <p class="email">vrishab.research [at] gmail [dot] com</p>
-  <p>Computational Immuno-Oncology</p>
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a class="brand" href="index.html">Vrishab SK</a>
+      <ul class="nav-links">
+        <li><a href="research.html">Research</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="reflections.html">Reflections</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="hero-wrapper" role="main">
+    <div class="site-container">
+      <div class="profile-card" aria-live="polite">
+      <div class="profile-details">
+        <h1>Vrishabhadev (Vrishab) Sathish Kumar</h1>
+        <div class="contact">
+          <p class="email">vrishab.research [at] gmail [dot] com</p>
+          <p></p>
+        </div>
+        <p class="lead">Aspiring Physician Scientist | Computational Biology | Immuno-Oncology</p>
+
+      </div>
+
+      <div class="profile-photo" aria-hidden="true">
+        <img src="files/headshot.jpeg" alt="Headshot of Vrishabhadev Sathish Kumar">
+      </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Quick links to important pages -->
+  <div class="site-container">
+    <section class="quick-links" aria-label="Quick links">
+    <a class="quick-card" href="research.html" title="Research">
+      <h3>Research</h3>
+      <p>Projects in progress and past work</p>
+    </a>
+
+    <a class="quick-card" href="cv.html" title="CV">
+      <h3>CV</h3>
+      <p>View or download PDF</p>
+    </a>
+
+    <a class="quick-card" href="reflections.html" title="Reflections">
+      <h3>Reflections</h3>
+      <p>Essays, notes, and other thoughts.</p>
+    </a>
+  </section>
+  </div>
+
 </body>
+
 </html>
