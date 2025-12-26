@@ -66,6 +66,30 @@ body{
   font-weight: 600;
 }
 
+/* Social links (LinkedIn, GitHub) in the profile card */
+.social-links{
+  display:flex;
+  gap: 0.6rem;
+  margin-top: 0.5rem;
+}
+.social-link{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width:40px;
+  height:40px;
+  border-radius:8px;
+  color: var(--muted);
+  background: transparent;
+  border: 1px solid rgba(0,0,0,0.04);
+  text-decoration: none;
+  transition: background 160ms, color 160ms, transform 140ms;
+}
+.social-link svg{ width:20px; height:20px; }
+.social-link:hover{ background: rgba(47,107,69,0.08); color: var(--accent); transform: translateY(-3px); }
+.social-link:focus{ outline: 3px solid rgba(47,107,69,0.12); outline-offset: 2px; }
+
+
 .profile-photo{
   display:flex;
   align-items:center;
