@@ -66,6 +66,19 @@ body{
   font-weight: 600;
 }
 
+.profile-desc{
+  width:100%;
+  margin-top: 20px;
+  background: linear-gradient(180deg, var(--card-bg) 0%, #f7f4ea 100%);
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 28px rgba(0,0,0,0.08);  gap: 1rem;
+  align-items: center;
+  box-sizing: border-box;
+  border: 1px solid rgba(0,0,0,0.06);
+  overflow: hidden;
+}
+
 /* Social links (LinkedIn, GitHub) in the profile card */
 .social-links{
   display:flex;
