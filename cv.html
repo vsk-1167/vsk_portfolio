@@ -5,38 +5,32 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>CV — Vrishabhadev Sathish Kumar</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="theme.js"></script>
 </head>
 <body>
   <nav class="site-nav">
     <div class="nav-inner">
       <a class="brand" href="index.html">Vrishab SK</a>
-      <ul class="nav-links">
-        <li><a href="research.html">Research</a></li>
-        <li><a href="cv.html">CV</a></li>
-        <!-- <li><a href="reflections.html">Reflections</a></li> -->
-      </ul>
+      <div class="nav-right">
+        <ul class="nav-links">
+          <!-- <li><a href="research.html">Research</a></li> -->
+          <!-- <li><a href="cv.html">CV</a></li> -->
+          <!-- <li><a href="reflections.html">Reflections</a></li> -->
+        </ul>
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to space mode" aria-pressed="false">☀️</button>
+      </div>
     </div>
   </nav>
 
-  <main style="width:100%;height:calc(100vh - 64px);margin:0;padding:0;">
-    <!-- <a href="files/CV_12-2025_website.pdf" target="_blank" rel="noopener">
-    Open in New Tab
-    </a>
-     -->
-
-     <object data="files/CV_12-2025_website.pdf"
-        type="application/pdf"
-        style="width:100%;height:100vh;">
-  <p>
-    Your device may not display PDFs inline.
-    <a href="files/CV_12-2025_website.pdf">Download the PDF</a> instead.
-  </p>
-</object>
-    <!-- <iframe src="files/CV_12-2025_website.pdf" style="display:block;width:100vw;height:100%;border:none;">
-      <p>Your browser does not support embedding PDFs. You can <a href="files/CV_12-2025_website.pdf">download the PDF</a> instead.</p>
-    </iframe> -->
-
-
+  <main class="site-container">
+    <div class="cv-embed">
+      <object data="files/CV_12-2025_website.pdf" type="application/pdf">
+        <p>
+          Your device may not display PDFs inline.
+          <a href="files/CV_12-2025_website.pdf">Download the PDF</a> instead.
+        </p>
+      </object>
+    </div>
   </main>
 
 </body>
